@@ -6,10 +6,12 @@ This project applies machine learning to detect financial fraud using two real-w
 ## Project Structure
 - `data/`: Raw datas
 - `notebooks/`: Jupyter notebooks for each major task
-- `models/`: Trained model artifacts
-- `artifacts/`: Data splits
-- `results/`: SHAP visualizations
-- `results/`: Evaluation metrics
+    - `models/`: Trained model artifacts
+    - `artifacts/`: Data splits
+    - `results/`: Evaluation metrics
+- `venv/`: Virtual environment
+- `.gitignore/`: Ignored files and directories
+- `README.md/`: Readme 
 
 
 ## Setup Instructions
@@ -17,4 +19,4 @@ This project applies machine learning to detect financial fraud using two real-w
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/yourusername/fraud-detection-shap.git
-cd fraud-detection-shap
+cd fraud-detection-adey
